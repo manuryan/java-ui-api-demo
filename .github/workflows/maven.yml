@@ -34,7 +34,7 @@ jobs:
     - name: Set up Allure
       uses: allure-framework/setup-allure@v2
       with:
-        allure-version: '2.23.0'
+        allure-version: '2.20.1'
 
     - name: Generate Allure Report
       run: |
