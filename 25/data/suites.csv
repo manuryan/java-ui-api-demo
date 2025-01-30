@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jan 30 18:58:00 GMT 2025","Thu Jan 30 18:58:02 GMT 2025","1310","Surefire suite","Surefire test","api.tests.DemoApiTest","api.tests.DemoApiTest","testGetUser","testGetUser","This test verifies that a list of users can be retrieved and is accurate."
+"passed","Thu Jan 30 18:58:02 GMT 2025","Thu Jan 30 18:58:03 GMT 2025","1612","Surefire suite","Surefire test","ui.tests.DemoTest","ui.tests.DemoTest","firstTest","First Test in Demo Project","This test verifies that the color retrieve matches the click."
+"passed","Thu Jan 30 18:58:03 GMT 2025","Thu Jan 30 18:58:04 GMT 2025","474","Surefire suite","Surefire test","ui.tests.DemoTest","ui.tests.DemoTest","secondTest","secondTest","This test each click in the menu against the text revealed."
+"passed","Thu Jan 30 18:58:04 GMT 2025","Thu Jan 30 18:58:04 GMT 2025","272","Surefire suite","Surefire test","ui.tests.DemoTest","ui.tests.DemoTest","secondTest","secondTest","This test each click in the menu against the text revealed."
+"passed","Thu Jan 30 18:58:04 GMT 2025","Thu Jan 30 18:58:04 GMT 2025","288","Surefire suite","Surefire test","ui.tests.DemoTest","ui.tests.DemoTest","secondTest","secondTest","This test each click in the menu against the text revealed."
