@@ -30,3 +30,19 @@ jobs:
         cache: maven
     - name: Build with Maven and run tests
       run: mvn clean test -Dbrowser=chrome-headless
+
+    - name: Generate Allure Report
+      run: |
+        allure generate allure-results --clean -o allure-report
+        ls -R allure-report
+
+    - name: Upload Allure Report
+      uses: actions/upload-artifact@v3
+      with:
+        name: allure-report
+        path: allure-report
+
+    - name: Publish Allure Report
+      uses: simple-elf/allure-report-action@v1
+      with:
+        report_directory: allure-report
