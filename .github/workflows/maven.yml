@@ -33,7 +33,7 @@ jobs:
       run: mvn clean test -Dbrowser=chrome-headless
 
     - name: Load test report history
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       if: always()
       continue-on-error: true
       with:
@@ -41,7 +41,7 @@ jobs:
         path: gh-pages
 
     - name: Build test report
-      uses: simple-elf/allure-report-action@v1.7
+      uses: simple-elf/allure-report-action@v1.9
       if: always()
       with:
         gh_pages: gh-pages
@@ -51,7 +51,6 @@ jobs:
     - name: Publish test report
       uses: peaceiris/actions-gh-pages@v4
       if: always()
-      continue-on-error: true
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
