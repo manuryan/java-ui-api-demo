@@ -1,5 +1,5 @@
 # **E2E UI Test Framework**
-This project is a simple End-to-End (E2E) UI testing framework built with a combination to showcase API and UI Automation using Selenium for the UI and RestAssured for RestApi.
+This project is a simple End-to-End (E2E) UI testing framework built with to showcase API and UI Automation using Selenium for the UI and RestAssured for RestApi.
 
 ## **Tools Used**
 - Java: The primary programming language for writing test scripts.
@@ -26,14 +26,14 @@ This project is a simple End-to-End (E2E) UI testing framework built with a comb
 
 ### **Installation**
 
-1. Clone the repository:
+1. Clone the Repository:
 
 ```
 git clone https://github.com/manuryan/java-ui-api-demo.git
 cd java-ui-api-demo
 ```
 
-2. Install dependencies using Maven:**
+2. Install dependencies using Maven:
 
 ```
 mvn clean install
