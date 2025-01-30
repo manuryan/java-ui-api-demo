@@ -28,19 +28,18 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+
     - name: Build with Maven
       run: mvn clean test -Dbrowser=chrome-headless
 
-    - name: Set up Allure
-      uses: allure-framework/setup-allure@v2 # Correct action name and indentation
-      with:
-        allure-version: '2.20.1' # Or latest version
+    - name: Serve allure
+      run: mvn allure:serve
 
     - name: Generate Allure Report
-      run: allure generate allure-results -o allure-report
+      run: ./.allure/allure-2.23.0/bin/allure generate allure-results --clean -o allure-report
 
-    - name: Upload Allure Report as artifact
+    - name: Upload Allure Report
       uses: actions/upload-artifact@v3
       with:
-         name: allure-report
-         path: allure-report
+        name: allure-report
+        path: allure-report
