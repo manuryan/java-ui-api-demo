@@ -32,13 +32,13 @@ cd java-ui-api-demo'
 
 ### **Install dependencies using Maven:**
 
-'mvn clean install'
+`mvn clean install`
 
 ### **Build and Run Tests**
 To build the project and run all tests, use the following Maven commands:
 
-'mvn clean install -DskipTests
-mvn test'
+`mvn clean install -DskipTests
+mvn test`
 
 ---
 
