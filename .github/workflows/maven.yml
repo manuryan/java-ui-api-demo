@@ -30,7 +30,7 @@ jobs:
         cache: maven
 
     - name: Build with Maven
-      run: mvn clean test -Dbrowser=chrome-headless
+      run: mvn clean test
 
     - name: Load test report history
       uses: actions/checkout@v4
