@@ -1,5 +1,5 @@
 # **E2E UI Test Framework**
-This project is a simple End-to-End (E2E) UI testing framework built with to showcase API and UI Automation using Selenium for the UI and RestAssured for RestApi.
+This project is a simple End-to-End (E2E) UI testing framework built to showcase API and UI Automation using Selenium for the UI and RestAssured for REST.
 
 ## **Tools Used**
 - Java: The primary programming language for writing test scripts.
